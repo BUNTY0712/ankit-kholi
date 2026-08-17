@@ -481,13 +481,13 @@
 
       <!-- Button -->
       <div class="faq-btn-wrapper">
-        <button class="faq-cta-button">
+        <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="faq-cta-button" style="text-decoration: none;">
           <span style="font-size: 1.125rem;">🎯</span>
           <span>Book My ₹99 Survey Session</span>
           <svg class="faq-arrow-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7-7 7m7-7H3"/>
           </svg>
-        </button>
+        </a>
       </div>
 
       <!-- Footer Note -->

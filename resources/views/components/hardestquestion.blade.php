@@ -476,10 +476,10 @@
 
       <!-- Action Button -->
       <div class="action-container">
-        <button class="cta-button">
+        <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="cta-button" style="text-decoration: none;">
           <span style="font-size: 1.125rem;">🎯</span>
           <span>Book My Confidential Survey</span>
-        </button>
+        </a>
       </div>
 
     </div>

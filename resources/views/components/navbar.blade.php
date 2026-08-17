@@ -100,7 +100,7 @@
         🎯 Only a few survey slots left this week —
       </span>
 
-      <a href="#" class="stb-link">
+      <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="stb-link">
         Book Your ₹99 Survey Slot →
       </a>
     </div>

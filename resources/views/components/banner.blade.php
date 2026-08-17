@@ -642,13 +642,13 @@
 
         <!-- Action Button & Note -->
         <div class="hero-action-box">
-          <button class="hero-cta-button">
+          <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="hero-cta-button" style="text-decoration: none;">
             <span style="font-size: 1.125rem;">🎯</span>
             <span>Book My ₹99 Survey Session</span>
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>
-          </button>
+          </a>
 
           <p class="hero-cta-note">
             <svg class="hero-note-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">

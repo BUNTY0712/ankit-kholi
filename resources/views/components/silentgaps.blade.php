@@ -366,10 +366,10 @@
         <p class="sg-callout-text">
           The survey reveals your exact <span class="sg-highlight">Readiness Score</span> — in just 3 minutes.
         </p>
-        <button class="sg-cta-button">
+        <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="sg-cta-button" style="text-decoration: none;">
           <span class="sg-currency-symbol">₹</span>
           <span>Book My Survey Slot Now</span>
-        </button>
+        </a>
       </div>
 
     </div>

@@ -518,10 +518,10 @@
 
         <!-- Action Button -->
         <div class="pq-action-container">
-          <button class="pq-cta-button">
-            <span style="font-size: 1.125rem;">🎯</span>
-            <span>Take The 3-Min Readiness Survey</span>
-          </button>
+          <a href="https://rzp.io/rzp/mosB0TR" target="_blank" rel="noopener noreferrer" class="pq-cta-button" style="text-decoration: none;">
+          <span style="font-size: 1.125rem;">🎯</span>
+          <span>Take The 3-Min Readiness Survey</span>
+        </a>
         </div>
 
       </div>
