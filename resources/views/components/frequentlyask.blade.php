@@ -495,9 +495,9 @@
       <p class="faq-footer-note">
         <span>Guided by <strong class="faq-bold-gold">Ankit Kohli</strong></span>
         <span>•</span>
-        <span>25+ Years Experience</span>
+        <span>15+ Years Experience</span>
         <span>•</span>
-        <span>3000+ Families Guided</span>
+        <span>5000+ Families Guided</span>
       </p>
 
     </div>

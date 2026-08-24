@@ -488,7 +488,7 @@
             For over <strong class="ymb-bold">25 years</strong>, Ankit Kohli has personally guided families in child future planning and financial readiness.
           </p>
           <p>
-            With <strong class="ymb-bold">3000+ families guided</strong> across India, he created the Child's Future Readiness Survey to give parents an honest, 3-minute mirror of where they truly stand.
+            With <strong class="ymb-bold">5000+ families guided</strong> across India, he created the Child's Future Readiness Survey to give parents an honest, 3-minute mirror of where they truly stand.
           </p>
         </div>
 
@@ -501,12 +501,12 @@
         <div class="ymb-stats-grid">
           
           <div class="ymb-stat-card">
-            <div class="ymb-stat-number">25+</div>
+            <div class="ymb-stat-number">15+</div>
             <div class="ymb-stat-label">Years Experience</div>
           </div>
 
           <div class="ymb-stat-card">
-            <div class="ymb-stat-number">3000+</div>
+            <div class="ymb-stat-number">5000+</div>
             <div class="ymb-stat-label">Families Guided</div>
           </div>
 
