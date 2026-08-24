@@ -675,7 +675,7 @@
             <iframe 
               id="mainFeaturedVideo"
               class="hero-featured-video"
-              src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&mute=1&rel=0&enablejsapi=1" 
+              src="https://www.youtube.com/embed/QOWQBdkjuQA?autoplay=1&mute=1&playlist=QOWQBdkjuQA&loop=1&rel=0&enablejsapi=1" 
               title="Ankit Kohli speaking live" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               allowfullscreen>
@@ -695,7 +695,7 @@
           
           <button 
             type="button" 
-            onclick="swapMainVideo('https://www.youtube.com/embed/M7lc1UVf-VE', 'Conference Audience · Live Event Gallery')"
+            onclick="swapMainVideo('https://www.youtube.com/embed/QOWQBdkjuQA', 'Conference Audience · Live Event Gallery')"
             class="hero-thumb-button"
           >
             <div class="hero-thumb-inner">

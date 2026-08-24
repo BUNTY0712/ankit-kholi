@@ -409,16 +409,14 @@
           <div class="npw-video-card-inner">
             
             <!-- Portrait Video Element -->
-            <video
-              autoplay
-              muted
-              loop
-              playsinline
-              controls
+            <iframe
               class="npw-video-player"
-            >
-              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
-            </video>
+              src="https://www.youtube.com/embed/mfQUv2bj0Bs?autoplay=1&mute=1&playlist=mfQUv2bj0Bs&loop=1&rel=0&enablejsapi=1"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="border: none;"
+            ></iframe>
 
             <!-- Gradient Dark Overlay -->
             <div class="npw-video-overlay"></div>

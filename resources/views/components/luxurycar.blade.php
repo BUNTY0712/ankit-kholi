@@ -433,55 +433,13 @@
         <!-- Video Container with Gold Border Accent -->
         <div class="pq-video-border-accent">
           <div id="luxurycar-video-container" class="pq-video-inner-card">
-            
-            <!-- Portrait Video Thumbnail -->
-            <img 
-              id="luxurycar-video-thumb"
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" 
-              alt="Presenter video portrait" 
-              class="pq-video-thumb-img"
-            />
-
-            <!-- Dark Gradient Overlay -->
-            <div class="pq-video-dark-overlay"></div>
-
-            <!-- Top Badge: Watch -->
-            <div class="pq-video-top-badge">
-              <div class="pq-watch-badge-pill">
-                <svg class="pq-badge-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                </svg>
-                <span>3-Min Video</span>
-              </div>
-            </div>
-
-            <!-- Center Play Button -->
-            <div class="pq-video-play-overlay">
-              <button 
-                id="luxurycar-play-btn"
-                aria-label="Play Portrait Video"
-                class="pq-play-btn"
-              >
-                <svg class="pq-play-svg" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </button>
-            </div>
-
-            <!-- Subtitle Pill Accent -->
-            <div class="pq-subtitle-pill-box">
-              <span class="pq-subtitle-pill">
-                3-Min Readiness Check ⏱️
-              </span>
-            </div>
-
-            <!-- Bottom Caption Overlay -->
-            <div class="pq-video-caption-box">
-              <p class="pq-video-caption-text">
-                A luxury car today... or your child's higher education tomorrow?
-              </p>
-            </div>
-
+            <iframe 
+              class="pq-iframe-embed" 
+              src="https://www.youtube.com/embed/XMFy3cPbFnc?autoplay=1&mute=1&playlist=XMFy3cPbFnc&loop=1&rel=0&enablejsapi=1" 
+              title="A Luxury Car Today or Your Child Higher Education Tomorrow?" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
 
@@ -541,7 +499,7 @@
         container.innerHTML = `
           <iframe 
             class="pq-iframe-embed" 
-            src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&mute=1&rel=0" 
+            src="https://www.youtube.com/embed/XMFy3cPbFnc?autoplay=1&mute=1&playlist=XMFy3cPbFnc&loop=1&rel=0&enablejsapi=1" 
             title="A Luxury Car Today or Your Child Higher Education Tomorrow?" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
