@@ -7,7 +7,7 @@
   <style>
     /* Scoped Custom CSS with wps- Prefix to Avoid CSS Conflicts */
     .wps-section {
-      background-color: #f3f6fb;
+      background-color: #f6f1ea;
       color: #0f172a;
       padding: 3rem 1rem;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -50,8 +50,8 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: #e0e9f8;
-      color: #1e3a8a;
+      background-color: #eee4d5;
+      color: #92400e;
       font-size: 0.75rem;
       font-weight: 600;
       padding: 0.375rem 1rem;
@@ -61,7 +61,7 @@
     }
 
     .wps-pill-badge:hover {
-      background-color: #d0def5;
+      background-color: #e5d8c5;
     }
 
     .wps-badge-icon {

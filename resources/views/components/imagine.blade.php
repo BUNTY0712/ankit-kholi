@@ -9,7 +9,7 @@
     .npw-section-wrapper {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       box-sizing: border-box;
-      background-color: #f8fafc;
+      background-color: #f6f1ea;
     }
 
     .npw-section-wrapper *,
@@ -22,7 +22,7 @@
 
     /* Section & Container */
     .npw-story-section {
-      background-color: rgba(248, 250, 252, 0.7);
+      background-color: #f6f1ea;
       color: #0f172a;
       padding: 2rem 0.875rem;
       display: flex;
@@ -35,10 +35,10 @@
       max-width: 1152px;
       width: 100%;
       background-color: rgba(255, 255, 255, 0.9);
-      border: 1px solid rgba(226, 232, 240, 0.9);
+      border: 1px solid #e2d8ce;
       border-radius: 1.5rem;
       padding: 1rem;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
       backdrop-filter: blur(16px);
       display: flex;
       flex-direction: column;

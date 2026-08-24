@@ -9,7 +9,7 @@
     .pq-section-wrapper {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       box-sizing: border-box;
-      background-color: #f8fafc;
+      background-color: #f6f1ea;
     }
 
     .pq-section-wrapper *,
@@ -22,7 +22,7 @@
 
     /* Section & Container Layout */
     .pq-priority-section {
-      background-color: rgba(248, 250, 252, 0.7);
+      background-color: #f6f1ea;
       color: #0f172a;
       padding: 3rem 1rem;
       display: flex;

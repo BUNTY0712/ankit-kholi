@@ -21,7 +21,7 @@
 
     /* Main Section Styling */
     .sg-survey-section {
-      background-color: #f4f7fc;
+      background-color: #f6f1ea;
       color: #0f172a;
       padding: 2rem 1rem;
       transition: all 0.3s ease;
@@ -38,8 +38,8 @@
       display: inline-flex;
       align-items: center;
       gap: 0.375rem;
-      background-color: #e0e9f8;
-      color: #1e3a8a;
+      background-color: #eee4d5;
+      color: #92400e;
       font-size: 0.75rem;
       font-weight: 600;
       padding: 0.35rem 0.875rem;
@@ -51,7 +51,7 @@
     .sg-badge-icon {
       width: 0.875rem;
       height: 0.875rem;
-      color: #1e3a8a;
+      color: #d97706;
       flex-shrink: 0;
     }
 

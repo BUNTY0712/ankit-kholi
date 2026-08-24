@@ -14,15 +14,15 @@
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: #0c134f;
+      background-color: #f6f1ea;
     }
 
     /* Section & Container */
     .hero-section {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, #0c134f 0%, #1d1e63 50%, #2b1f6d 100%);
-      color: #ffffff;
+      background: linear-gradient(135deg, #f6f1ea 0%, #f0e9df 50%, #e7ded0 100%);
+      color: #0f172a;
       padding: 3rem 1rem;
       display: flex;
       align-items: center;
@@ -37,7 +37,7 @@
       left: -8rem;
       width: 20rem;
       height: 20rem;
-      background-color: rgba(37, 99, 235, 0.2);
+      background-color: rgba(245, 158, 11, 0.12);
       border-radius: 9999px;
       filter: blur(48px);
       pointer-events: none;
@@ -49,7 +49,7 @@
       right: -8rem;
       width: 20rem;
       height: 20rem;
-      background-color: rgba(245, 158, 11, 0.1);
+      background-color: rgba(217, 119, 6, 0.1);
       border-radius: 9999px;
       filter: blur(48px);
       pointer-events: none;
@@ -84,24 +84,24 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: #fca510;
-      color: #020617;
+      background-color: #eee4d5;
+      color: #92400e;
       border-radius: 9999px;
       padding: 0.375rem 1rem;
       font-size: 0.75rem;
       font-weight: 800;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
       transition: background-color 0.2s ease;
     }
 
     .pill-badge:hover {
-      background-color: #fbbf24;
+      background-color: #e5d8c5;
     }
 
     .badge-icon {
       width: 0.875rem;
       height: 0.875rem;
-      color: #020617;
+      color: #d97706;
       flex-shrink: 0;
     }
 
@@ -110,11 +110,11 @@
       font-weight: 800;
       letter-spacing: -0.025em;
       line-height: 1.25;
-      color: #ffffff;
+      color: #0f172a;
     }
 
     .highlight-text {
-      color: #fca510;
+      color: #b45309;
     
     }
 
@@ -122,7 +122,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.75rem;
-      color: #cbd5e1;
+      color: #475569;
       font-size: 0.875rem;
       line-height: 1.625;
       padding-top: 0.25rem;
@@ -132,13 +132,13 @@
 
     .callout-card {
       font-weight: 700;
-      color: #ffffff;
-      background-color: rgba(255, 255, 255, 0.1);
+      color: #1e293b;
+      background-color: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(12px);
       padding: 1rem;
       border-radius: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2d8ce;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
     }
 
     .action-container {

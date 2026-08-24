@@ -22,11 +22,11 @@
   /* Banner Container */
   .stb-banner {
     position: relative;
-    background-color: #031548;
-    color: #ffffff;
+    background-color: #f6f1ea;
+    color: #1c1917;
     padding: 0.75rem 1rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #e5ded2;
   }
 
   /* Spacer to preserve natural flow height for content below fixed navbar */
@@ -51,12 +51,13 @@
 
   /* Text & Link Styling */
   .stb-text {
+    color: #1c1917;
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .stb-link {
-    color: #FFB800;
+    color: #b45309;
     font-weight: 700;
     text-decoration: underline;
     white-space: nowrap;
@@ -65,7 +66,7 @@
   }
 
   .stb-link:hover {
-    color: #fde047; /* Lighter amber for hover */
+    color: #d97706; /* Rich amber for hover */
   }
 
   /* Tablet Responsive Styles (640px+) */

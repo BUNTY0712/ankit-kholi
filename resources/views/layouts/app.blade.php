@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #f6f1ea; color: #1c1917; margin: 0; padding: 0;">
 
     @include('components.navbar')
 

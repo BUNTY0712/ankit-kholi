@@ -9,7 +9,7 @@
     .hero-section-root {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       box-sizing: border-box;
-      background-color: #0a1128;
+      background-color: #f6f1ea;
     }
 
     .hero-section-root *,
@@ -24,8 +24,8 @@
     .hero-main-section {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, #0a1128 0%, #0e1638 50%, #1c2754 100%);
-      color: #ffffff;
+      background: linear-gradient(135deg, #f6f1ea 0%, #f0e9df 50%, #e7ded0 100%);
+      color: #0f172a;
       padding: 2rem 0.875rem;
       display: flex;
       align-items: center;
@@ -40,7 +40,7 @@
       left: -8rem;
       width: 24rem;
       height: 24rem;
-      background-color: rgba(245, 158, 11, 0.1);
+      background-color: rgba(245, 158, 11, 0.12);
       border-radius: 9999px;
       filter: blur(48px);
       pointer-events: none;
@@ -52,7 +52,7 @@
       right: -8rem;
       width: 24rem;
       height: 24rem;
-      background-color: rgba(37, 99, 235, 0.15);
+      background-color: rgba(217, 119, 6, 0.1);
       border-radius: 9999px;
       filter: blur(48px);
       pointer-events: none;
@@ -64,12 +64,12 @@
       width: 100%;
       position: relative;
       z-index: 10;
-      background-color: rgba(13, 22, 54, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background-color: rgba(255, 255, 255, 0.85);
+      border: 1px solid #e2d8ce;
       border-radius: 1.5rem;
       padding: 1rem;
       backdrop-filter: blur(16px);
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
@@ -93,20 +93,20 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: rgba(28, 39, 84, 0.9);
-      border: 1px solid rgba(251, 191, 36, 0.4);
+      background-color: #eee4d5;
+      border: 1px solid rgba(217, 119, 6, 0.4);
       border-radius: 9999px;
       padding: 0.375rem 0.875rem;
       font-size: 0.75rem;
       font-weight: 700;
-      color: #fde68a;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      color: #92400e;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
       backdrop-filter: blur(8px);
       transition: background-color 0.2s ease;
     }
 
     .hero-pill-badge:hover {
-      background-color: #25336d;
+      background-color: #e5d8c5;
     }
 
     .hero-ping-container {
@@ -122,7 +122,7 @@
       height: 100%;
       width: 100%;
       border-radius: 9999px;
-      background-color: #fbbf24;
+      background-color: #d97706;
       opacity: 0.75;
       animation: hero-ping-anim 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
@@ -133,14 +133,14 @@
       border-radius: 9999px;
       height: 0.5rem;
       width: 0.5rem;
-      background-color: #fbbf24;
+      background-color: #d97706;
     }
 
     .hero-badge-svg {
       width: 0.875rem;
       height: 0.875rem;
       flex-shrink: 0;
-      color: #fbbf24;
+      color: #d97706;
     }
 
     /* Main Headline */
@@ -148,23 +148,23 @@
       font-size: 1.5rem;
       font-weight: 900;
       letter-spacing: -0.025em;
-      color: #ffffff;
+      color: #0f172a;
       line-height: 1.375;
     }
 
     .hero-highlight-span {
-      color: #fca510;
-      background-color: rgba(245, 158, 11, 0.1);
+      color: #b45309;
+      background-color: rgba(245, 158, 11, 0.15);
       padding: 0.125rem 0.5rem;
       border-radius: 0.75rem;
-      border: 1px solid rgba(251, 191, 36, 0.3);
+      border: 1px solid rgba(217, 119, 6, 0.3);
       display: inline-block;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
     /* Description */
     .hero-text-description {
-      color: #cbd5e1;
+      color: #475569;
       font-size: 0.75rem;
       line-height: 1.625;
       max-width: 36rem;
@@ -184,25 +184,25 @@
       align-items: center;
       justify-content: center;
       gap: 0.375rem;
-      background-color: rgba(23, 34, 77, 0.9);
-      border: 1px solid #2e3e78;
+      background-color: #f8f4ee;
+      border: 1px solid #e2d8ce;
       border-radius: 0.75rem;
       padding: 0.5rem 0.75rem;
       font-size: 0.75rem;
       font-weight: 600;
-      color: #e2e8f0;
+      color: #1e293b;
       backdrop-filter: blur(4px);
       transition: all 0.2s ease;
     }
 
     .hero-feature-badge:hover {
-      border-color: rgba(251, 191, 36, 0.5);
+      border-color: #b45309;
     }
 
     .hero-feature-svg {
       width: 1rem;
       height: 1rem;
-      color: #fbbf24;
+      color: #d97706;
       flex-shrink: 0;
     }
 
@@ -247,7 +247,7 @@
     }
 
     .hero-cta-note {
-      color: #94a3b8;
+      color: #64748b;
       font-size: 0.6875rem;
       display: flex;
       align-items: center;

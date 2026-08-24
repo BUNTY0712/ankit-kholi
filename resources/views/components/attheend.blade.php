@@ -7,7 +7,7 @@
   <style>
     /* Scoped Custom CSS with dga- Prefix to Avoid Class Conflicts */
     .dga-survey-section {
-      background-color: #f3f6fb;
+      background-color: #f6f1ea;
       color: #0f172a;
       min-height: auto;
       padding: 3rem 1rem;

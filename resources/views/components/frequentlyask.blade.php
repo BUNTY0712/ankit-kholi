@@ -22,7 +22,7 @@
 
     /* FAQ Section Container */
     .faq-section {
-      background-color: #f3f6fb;
+      background-color: #f6f1ea;
       padding: 3rem 1rem;
     }
 
@@ -47,8 +47,8 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: #e0e9f8;
-      color: #1e3a8a;
+      background-color: #eee4d5;
+      color: #92400e;
       font-size: 0.75rem;
       font-weight: 600;
       padding: 0.375rem 1rem;
@@ -58,26 +58,26 @@
     }
 
     .faq-pill-badge:hover {
-      background-color: #d0def5;
+      background-color: #e5d8c5;
     }
 
     .faq-badge-icon {
       width: 1rem;
       height: 1rem;
-      color: #1e3a8a;
+      color: #d97706;
       flex-shrink: 0;
     }
 
     .faq-title {
       font-size: 1.5rem;
       font-weight: 800;
-      color: #0a1128;
+      color: #0f172a;
       letter-spacing: -0.025em;
       line-height: 1.25;
     }
 
     .faq-subtitle {
-      color: #64748b;
+      color: #475569;
       font-size: 0.75rem;
       font-weight: 500;
       max-width: 36rem;
@@ -94,14 +94,14 @@
     .faq-item {
       overflow: hidden;
       border-radius: 1rem;
-      border: 1px solid rgba(226, 232, 240, 0.9);
+      border: 1px solid #e2d8ce;
       background-color: #ffffff;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
       transition: all 0.3s ease;
     }
 
     .faq-item:hover {
-      border-color: rgba(253, 230, 138, 0.6);
+      border-color: rgba(217, 119, 6, 0.5);
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     }
 
@@ -133,26 +133,27 @@
 
     .faq-item[open] .faq-chevron {
       transform: rotate(180deg);
-      color: #f59e0b;
+      color: #d97706;
     }
 
     .faq-content {
-      border-top: 1px solid rgba(241, 245, 249, 0.8);
+      border-top: 1px solid #eee7dc;
       padding: 1.125rem 1.25rem;
       font-size: 0.75rem;
       line-height: 1.625;
       color: #475569;
-      background-color: rgba(248, 250, 252, 0.5);
+      background-color: #fcf9f5;
     }
 
     /* Bottom CTA Section */
     .faq-cta-section {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, #0c134f 0%, #121c54 50%, #1e2875 100%);
+      background: linear-gradient(135deg, #f6f1ea 0%, #f0e9df 50%, #e7ded0 100%);
+      border-top: 1px solid #e2d8ce;
       padding: 3rem 1rem;
       text-align: center;
-      color: #ffffff;
+      color: #0f172a;
     }
 
     .faq-bg-glow {
@@ -162,7 +163,7 @@
       transform: translateX(-50%);
       width: 24rem;
       height: 24rem;
-      background-color: rgba(245, 158, 11, 0.1);
+      background-color: rgba(245, 158, 11, 0.12);
       border-radius: 9999px;
       filter: blur(48px);
       pointer-events: none;
@@ -183,13 +184,13 @@
       width: 3rem;
       height: 3rem;
       border-radius: 1rem;
-      background-color: rgba(251, 191, 36, 0.2);
-      border: 1px solid rgba(251, 191, 36, 0.3);
-      color: #fbbf24;
+      background-color: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(217, 119, 6, 0.3);
+      color: #d97706;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
     }
 
     .faq-icon-svg {
@@ -202,13 +203,13 @@
       font-weight: 800;
       line-height: 1.25;
       letter-spacing: -0.025em;
-      color: #ffffff;
+      color: #0f172a;
       padding: 0 0.5rem;
     }
 
     .faq-highlight-span {
       display: block;
-      color: #fca510;
+      color: #b45309;
    
       margin-top: 0.25rem;
     }
@@ -218,7 +219,7 @@
       margin: 0 auto;
       font-size: 0.75rem;
       line-height: 1.625;
-      color: #cbd5e1;
+      color: #475569;
       padding: 0 0.5rem;
     }
 
@@ -263,7 +264,7 @@
 
     .faq-footer-note {
       font-size: 0.75rem;
-      color: #94a3b8;
+      color: #64748b;
       padding-top: 0.5rem;
       display: flex;
       align-items: center;
@@ -274,7 +275,7 @@
 
     .faq-bold-gold {
       font-weight: 700;
-      color: #fbbf24;
+      color: #b45309;
     }
 
     /* Tablet Responsive Styles (640px+) */

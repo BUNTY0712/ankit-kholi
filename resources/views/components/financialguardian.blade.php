@@ -7,7 +7,7 @@
   <style>
     /* Scoped Custom CSS with ymb- Prefix to Avoid CSS Conflicts */
     .ymb-section {
-      background-color: #f3f6fb;
+      background-color: #f6f1ea;
       color: #0f172a;
       padding: 3rem 1rem;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
