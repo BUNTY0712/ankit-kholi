@@ -49,24 +49,26 @@
 
     .ymb-portrait-border {
       position: relative;
-      padding: 2.5px;
-      border-radius: 1.5rem;
-      background: linear-gradient(to bottom, #fbbf24, #f59e0b, #d97706);
-      box-shadow: 0 0 30px rgba(245, 158, 11, 0.25);
+      padding: 0;
+      border-radius: 0;
+      background: #000000;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
       transition: all 0.3s ease;
-      max-width: 24rem;
+      max-width: 28rem;
       width: 100%;
     }
 
     .ymb-portrait-border:hover {
-      box-shadow: 0 0 35px rgba(245, 158, 11, 0.35);
+      transform: translateY(-2px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
     }
 
     .ymb-portrait-inner {
-      border-radius: 22px;
+      border-radius: 0;
       overflow: hidden;
-      background-color: #0f172a;
-      aspect-ratio: 3 / 4;
+      background-color: #000000;
+      aspect-ratio: 1 / 1;
+      width: 100%;
     }
 
     .ymb-portrait-img {
@@ -79,7 +81,7 @@
     }
 
     .ymb-portrait-inner:hover .ymb-portrait-img {
-      transform: scale(1.05);
+      transform: scale(1.03);
     }
 
     /* Thumbnails Grid */
@@ -430,34 +432,9 @@
         <div class="ymb-portrait-border">
           <div class="ymb-portrait-inner">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" 
+              src="/images/ankit-kohli.jpg" 
               alt="Ankit Kohli" 
               class="ymb-portrait-img"
-            />
-          </div>
-        </div>
-
-        <!-- 3 Thumbnail Photos Grid -->
-        <div class="ymb-thumb-grid">
-          <div class="ymb-thumb-card">
-            <img 
-              src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=300&q=80" 
-              alt="Ankit Kohli on Stage" 
-              class="ymb-thumb-img"
-            />
-          </div>
-          <div class="ymb-thumb-card">
-            <img 
-              src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=300&q=80" 
-              alt="Audience Event" 
-              class="ymb-thumb-img"
-            />
-          </div>
-          <div class="ymb-thumb-card">
-            <img 
-              src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=300&q=80" 
-              alt="Live Seminar" 
-              class="ymb-thumb-img"
             />
           </div>
         </div>
@@ -485,7 +462,7 @@
         <!-- Bio Paragraphs -->
         <div class="ymb-bio-text">
           <p>
-            For over <strong class="ymb-bold">25 years</strong>, Ankit Kohli has personally guided families in child future planning and financial readiness.
+            For over <strong class="ymb-bold">15 years</strong>, Ankit Kohli has personally guided families in child future planning and financial readiness.
           </p>
           <p>
             With <strong class="ymb-bold">5000+ families guided</strong> across India, he created the Child's Future Readiness Survey to give parents an honest, 3-minute mirror of where they truly stand.

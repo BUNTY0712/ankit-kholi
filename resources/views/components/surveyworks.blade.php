@@ -622,7 +622,7 @@
             <div id="survey-video-header" class="hsw-video-header">
               <div class="hsw-author-info">
                 <span class="hsw-avatar-ring">
-                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Avatar" class="hsw-avatar-img" />
+                  <img src="/images/ankit-kohli.jpg" alt="Avatar" class="hsw-avatar-img" />
                 </span>
                 <span class="hsw-video-title">Do you know 80% Parents Take Loan to Pay for Marriage and Child Education? Plan</span>
               </div>
